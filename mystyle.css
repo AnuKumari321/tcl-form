@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+}
+
+.nav_img {
+    margin-left: 20px;
+}
+
+.heading {
+    margin-left: 40px;
+    color:rgb(68,137,199);
+}
+
+.part1 {
+    display: flex;
+    align-items: center;
+    flex: 0.4;
+}
+
+.part2 {
+    flex: 0.6;
+}
+
+.li_nav > a {
+    text-decoration: none;
+    color:#000;
+    margin: 39px;
+    font-weight: bolder;
+}
+
+
+.container{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 30px ;
+    width: 33%;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    box-shadow:  -6px 6px 16px #a4a4a4,
+             6px -6px 16px #ffffff;
+}
+button.btn{
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.form-group input{
+    display: block;
+    width: 200px;
+    padding: 3px;
+    margin: 8px;
+}
+.container button{
+    display: block;
+    width: 90%;
+    padding: 8px 3px;
+    margin-left: 23px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+h1{
+ color: #000;
+}
+
+.form-group> a{
+    margin: 100px 0px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#reg_{
+    margin: 0 30px;
+    width: 85%;
+    font-size: 16px;
+    outline: none;
+}
